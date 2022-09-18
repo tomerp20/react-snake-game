@@ -13,7 +13,7 @@ class SnakeGame extends React.Component {
       height: 0,
       blockWidth: 0,
       blockHeight: 0,
-      gameLoopTimeout: 50,
+      gameLoopTimeout: 100,
       timeoutId: 0,
       startSnakeSize: 0,
       snake: [],
