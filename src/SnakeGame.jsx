@@ -11,11 +11,19 @@ class SnakeGame extends React.Component {
     this.state = {
       width: 0,
       height: 0,
+<<<<<<< HEAD
       blockWidth: 23,
       blockHeight: 54,
       gameLoopTimeout: 755,
       timeoutId: 45,
       startSnakeSize: 1,
+=======
+      blockWidth: 354,
+      blockHeight: 253,
+      gameLoopTimeout: 23,
+      timeoutId: 0,
+      startSnakeSize: 2,
+>>>>>>> myb
       snake: [],
       apple: {},
       direction: 'right',
