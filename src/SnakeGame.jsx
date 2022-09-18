@@ -9,12 +9,12 @@ class SnakeGame extends React.Component {
     this.handleKeyDown = this.handleKeyDown.bind(this)
 
     this.state = {
-      width: 0,
+      width: 34,
       height: 0,
       blockWidth: 35444,
       blockHeight: 253,
       gameLoopTimeout: 23,
-      timeoutId: 0,
+      timeoutId: 76,
       startSnakeSize: 2,
       snake: [],
       apple: {},
