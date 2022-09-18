@@ -9,7 +9,7 @@ class SnakeGame extends React.Component {
     this.handleKeyDown = this.handleKeyDown.bind(this)
 
     this.state = {
-      width: 0,
+      width: 11,
       height: 0,
       blockWidth: 35444,
       blockHeight: 253,
